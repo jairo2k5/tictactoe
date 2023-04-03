@@ -9,8 +9,7 @@ flag = -1
 
 function convPosition(x, y) {
     convChar = ['z', 'u', 'd']
-    str = convChar[x]+convChar[y]
-    return str
+    return convChar[x]+convChar[y]
 }
 
 function convPlayer(x) {
