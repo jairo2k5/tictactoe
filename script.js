@@ -8,13 +8,8 @@ flag = -1
 /* Game Methods - Start */
 
 function convPosition(x, y) {
-    str = '';
-    if (x == 0) str += 'z'
-    else if (x == 1) str += 'u'
-    else if (x == 2) str += 'd'
-    if (y == 0) str += 'z'
-    else if (y == 1) str += 'u'
-    else if (y == 2) str += 'd'
+    convChar = ['z', 'u', 'd']
+    str = convChar[x]+convChar[y]
     return str
 }
 
