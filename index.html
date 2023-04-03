@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="./svg/page-icon.svg" type="image/x-icon">
+    <title>TicTacToe Game</title>
+  </head>
+  <body>
+    <div class="game">
+      <table class="table">
+        <tr>
+          <td class="zz" onclick="call(0, 0)"></td>
+          <td class="zu" onclick="call(0, 1)"></td>
+          <td class="zd" onclick="call(0, 2)"></td>
+        </tr>
+        <tr>
+          <td class="uz" onclick="call(1, 0)"></td>
+          <td class="uu" onclick="call(1, 1)"></td>
+          <td class="ud" onclick="call(1, 2)"></td>
+        </tr>
+        <tr>
+          <td class="dz" onclick="call(2, 0)"></td>
+          <td class="du" onclick="call(2, 1)"></td>
+          <td class="dd" onclick="call(2, 2)"></td>
+        </tr>
+      </table>
+      <div class="log">
+        <div class="log-terminal">
+          <div class="window">
+            <div class="location">/home/game:~</div>
+            <div class="options">
+              <div class="red"></div>
+              <div class="orange"></div>
+              <div class="green"></div>
+            </div>
+          </div>
+          <div class="terminal">
+            <div class="alert">
+                gamer@host:~$ rtime log.txt<br>
+                🏁 O jogador X começa!
+            </div>
+            <div class="logs"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Page/2 - Start */
+
+.table {
+    background-color: #2b2d42;
+    height: 100vh;
+    width: 100%;
+}
+
+.log {
+    background-color: #e5e5e5;
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Page/2 - End */
+
+/* Table/Terminal - Start */
+
+.table tr td {
+    background-color: #3c3e53;
+    cursor: pointer;
+    width: calc(100%/3);
+    height: calc(100%/3);
+    margin: 5px;
+    padding: 50px;
+}
+
+.table tr td:hover {
+    background-color: #2b2d42;
+    transition: 1s;
+}
+
+.terminal {
+    padding: 10px;
+}
+
+.log-terminal {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 10px;
+    font-family: monospace;
+    color: #fff;
+    /*background: #2b2d42;*/
+    background: #151620;
+    font-size: 1.2em;
+}
+
+.logs button {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: monospace;
+    color: #28cc40;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Table/Terminal - End */
+
+/* Window Options - Start */
+
+.window {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #2b2d42;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+}
+
+.options div {
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background-color: #28cc40;
+}
+
+.options div:nth-child(1) {
+    background-color: #ff5355;
+}
+
+.options div:nth-child(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #febd2d;
+}
+
+/* Window Options - Finish */
