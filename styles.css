@@ -75,7 +75,6 @@
 
 .window {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 10px;
     background: #2b2d42;
@@ -86,6 +85,7 @@
 .options {
     display: flex;
     flex-direction: row;
+    margin-left: auto;
 }
 
 .options div {
@@ -103,6 +103,10 @@
     margin-left: 5px;
     margin-right: 5px;
     background-color: #febd2d;
+}
+
+.location {
+    margin-left: auto;
 }
 
 /* Window Options - Finish */
