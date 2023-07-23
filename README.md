@@ -1,1 +1,0 @@
-<h1>Simple TicTacToe game with JavaScript.</h1>
